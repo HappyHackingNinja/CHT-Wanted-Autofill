@@ -1,0 +1,176 @@
+# 出生日期
+yy:
+  value: 76
+mm:
+  value: 1
+dd:
+  value: 1
+# 婚姻狀況
+marry:
+  value: false
+# 性別 
+sex:
+  description: 'options: M(Male), F(Female)'
+  value: 'M'
+# 身心障礙人士
+injure_flg:
+  value: false
+# 原住民
+resident_flg:
+  value: false
+# 本公司因公撫卹員工之遺眷
+staff_flg:
+  value: false
+# 本公司在職員工
+cht_emp:
+  value: false
+# 兵役狀況
+military:
+  description: 'options: 無，免役，役畢，服役中'
+  value: '役畢'
+# 役期（起始）
+mili_stt_yy:
+  value: 100
+mili_stt_mm:
+  value: 1
+mili_stt_dd:
+  value: 1
+# 役期（結束）
+mili_stp_yy:
+  value: 100
+mili_stp_mm:
+  value: 1
+mili_stp_dd:
+  value: 1
+# 戶籍地址
+addr_post:
+  value: 100
+address:
+  value: '台北市中正區重慶南路一段122號'
+# 現居地址
+now_post:
+  value: 100
+now_addr:
+  value: '台北市中正區重慶南路一段122號'
+# 辦公室電話:
+otel:
+  value:
+# 行動電話
+mtel:
+  value: '0123456789'
+htel:
+  value: '0123456789'
+# 學歷
+degrees:
+  description: 'maximum count number of degree item is 3'
+  value:
+      # 教育程度
+    - degree:
+        description: 'options: 博士，碩士，大學，專科，高中職'
+        value: '碩士'
+      # 學校名稱
+      sh:
+        value: '某某大學'
+      # 科系所
+      college:
+        value: '電機工程所'
+      # 起迄年月
+      sh_stt_yy:
+        value: 100
+      sh_stt_mm:
+        value: 1
+      sh_stp_yy:
+        value: 100
+      sh_stp_mm:
+        value: 1
+    - degree:
+        value: '大學'
+      sh:
+        value: '某某大學'
+      college:
+        value: '電子工程系'
+      sh_stt_yy:
+        value: 100
+      sh_stt_mm:
+        value: 1
+      sh_stp_yy:
+        value: 100
+      sh_stp_mm:
+        value: 1
+# 高中(職)
+high_school:
+  sh:
+    value: '某某高中'
+  # 科系所
+  college:
+    value: '第三類組'
+  # 起迄年月
+  sh_stt_yy:
+    value: 100
+  sh_stt_mm:
+    value: 1
+  sh_stp_yy:
+    value: 100
+  sh_stp_mm:
+    value: 1
+# 工作經驗
+works:
+  description: 'maximum count number of work item is 3'
+  value:
+      # 公司名稱
+    - company:
+        value: '家'
+      # 職務
+      office:
+        value: '自宅警備員'
+      # 服務期間起迄
+      comp_stt_yy:
+        value: 100
+      comp_stt_mm:
+        value: 1
+      comp_stp_yy:
+        value: 100
+      comp_stp_mm:
+        value: 1
+      # 擔任工作內容
+      duty:
+        value: '自宅警備'
+      # 年薪
+      salary:
+        value: '1000,000'
+    - company:
+        value: '家'
+      # 職務
+      office:
+        value: '自宅警備員'
+      # 服務期間起迄
+      comp_stt_yy:
+        value: 100
+      comp_stt_mm:
+        value: 1
+      comp_stp_yy:
+        value: 100
+      comp_stp_mm:
+        value: 1
+      # 擔任工作內容
+      duty:
+        value: '自宅警備'
+      # 年薪
+      salary:
+        value: '1000,000'
+# 專長(詳述)
+professional:
+  description: 'maximum number of characters is 50'
+  value: '吃與睡'
+# 專業證照
+license:
+  description: 'maximum number of characters is 50'
+  value:
+# 語文證照
+lang_license:
+  description: 'maximum number of characters is 50'
+  value:
+# 研究論文題目(研究所必填)
+comment:
+  description: 'maximum number of characters is 50'
+  value: ''
